@@ -1,4 +1,4 @@
-import { Hexagon, Github } from "lucide-react"
+import { Hexagon } from "lucide-react"
 
 export function Header() {
   return (
@@ -20,15 +20,6 @@ export function Header() {
             className="hidden rounded-md px-3 py-1.5 transition-colors hover:bg-[var(--color-surface-2)] hover:text-[var(--color-foreground)] sm:block"
           >
             Analyze
-          </a>
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center gap-2 rounded-md px-3 py-1.5 transition-colors hover:bg-[var(--color-surface-2)] hover:text-[var(--color-foreground)]"
-          >
-            <Github className="h-4 w-4" />
-            <span className="hidden sm:inline">Star</span>
           </a>
         </nav>
       </div>
